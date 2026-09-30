@@ -1,0 +1,65 @@
+name: "🐛 Bug Praktik"
+description: Error atau masalah saat mengikuti materi
+labels: ["bug"]
+body:
+  - type: input
+    id: os
+    attributes:
+      label: Sistem Operasi
+      placeholder: Windows 11 / macOS Sonoma / Ubuntu 24
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: AI Agent
+      placeholder: Antigravity / Cursor / dll
+    validations:
+      required: true
+  - type: input
+    id: bab
+    attributes:
+      label: Bab/file
+      placeholder: docs/06-database/01-postgresql-prisma.md
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Task ID (kalau ada)
+      placeholder: T-002
+  - type: textarea
+    id: langkah
+    attributes:
+      label: Langkah untuk mereproduksi
+      description: 1. ..., 2. ..., 3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Output error lengkap
+      description: Paste teks, bukan screenshot (teks bisa dicari). Sensor secret.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Expected vs Actual
+      value: |
+        Expected: [apa yang seharusnya terjadi]
+        Actual: [apa yang terjadi]
+    validations:
+      required: true
+  - type: textarea
+    id: sudah-dicoba
+    attributes:
+      label: Sudah dicoba
+  - type: checkboxes
+    id: sensor
+    attributes:
+      label: Konfirmasi
+      options:
+        - label: Saya sudah memastikan tidak ada password/API key/secret di issue ini.
+          required: true

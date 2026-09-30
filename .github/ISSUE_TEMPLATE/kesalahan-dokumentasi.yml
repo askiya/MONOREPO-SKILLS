@@ -1,0 +1,18 @@
+name: "📝 Kesalahan Dokumentasi"
+description: Typo, link mati, atau langkah yang salah/sudah berubah
+labels: ["docs"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File yang salah
+      placeholder: docs/11-hosting-cpanel/02-dns-record.md
+    validations:
+      required: true
+  - type: textarea
+    id: deskripsi
+    attributes:
+      label: Apa yang salah
+      description: Apa yang tertulis dan apa yang seharusnya.
+    validations:
+      required: true

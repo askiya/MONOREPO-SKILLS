@@ -10,10 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="docs/00-mulai-dari-sini/01-apa-itu-vibe-coding.md">Mulai Belajar</a> ·
-  <a href="templates/">Pakai Template</a> ·
-  <a href="prompts/README.md">Ambil Prompt</a> ·
-  <a href="kelas/SILABUS.md">Lihat Silabus</a>
+  <a href="START-HERE.md"><strong>👉 MULAI DARI SINI</strong></a> ·
+  <a href="kelas/latihan/README.md">Latihan Praktik</a> ·
+  <a href="examples/toko-produk-digital/">Contoh Project</a> ·
+  <a href="templates/">Template</a> ·
+  <a href="prompts/README.md">Prompt</a> ·
+  <a href="GLOSSARY.md">Kamus Istilah</a> ·
+  <a href="BANTUAN.md">Minta Bantuan</a>
 </p>
 
 ---
@@ -31,12 +34,19 @@ pembayaran.
 
 ## Cara Pakai Repo Ini
 
-1. Clone atau download repo ini.
-2. Baca `docs/00-mulai-dari-sini/`.
-3. Ikuti nomor folder `docs/` secara berurutan. Jangan lompat sebelum checklist
-   di akhir tiap bab centang semua.
-4. Copy isi `templates/` ke project kamu, isi, lalu masukkan ke AI agent.
-5. Copy prompt dari `prompts/` saat butuh — jangan ngetik prompt dari nol.
+1. Buka **[START-HERE.md](START-HERE.md)** — pilih jalur A/B/C/D sesuai target.
+2. Copy **[PROGRESS.md](PROGRESS.md)** ke project, lalu centang progres nyata.
+3. Kerjakan **[latihan per sesi](kelas/latihan/README.md)** secara urut. Setiap
+   sesi punya target, output benar, error umum, dan bukti kelulusan.
+4. Lihat **[contoh project terisi](examples/toko-produk-digital/)** sebelum
+   mengisi template sendiri.
+5. Berhenti di empat **[checkpoint mentor](kelas/CHECKPOINT-MENTOR.md)** untuk
+   review dokumen, localhost, staging, dan produksi.
+6. Kalau buntu, ikuti **[format minta bantuan](BANTUAN.md)** — jangan hanya
+   bilang "error bang".
+
+> Bingung istilah? Buka **[GLOSSARY.md](GLOSSARY.md)**. Bingung pilih hosting?
+> Buka **[decision tree hosting](docs/09-deploy-gratis/03-pilih-hosting-decision-tree.md)**.
 
 > Aturan emas kelas ini: **AI agent tidak boleh menebak.** Kalau agent tidak
 > punya dokumen, dia akan mengarang arsitektur. Dokumen dulu, kode belakangan.
@@ -62,12 +72,23 @@ pembayaran.
 | `docs/12-domain-dns-cloudflare/` | Domain, DNS, SSL, subdomain staging |
 | `docs/13-payment/` | Xendit, Lynk.id, webhook, aktivasi otomatis |
 | `docs/14-keamanan-secret/` | Secret, hardening app, hardening cPanel, monitoring & insiden |
-| `docs/15-troubleshooting/` | Error yang paling sering muncul + obatnya |
+| `docs/15-troubleshooting/` | Error umum + **decision tree** troubleshooting |
+| `docs/16-email-transaksional/` | SMTP, SPF, DKIM, DMARC, email aman |
+| `docs/17-upload-object-storage/` | Upload file, R2/S3, signed URL |
+| `docs/18-ci-github-actions/` | CI otomatis lint/test/build + branch protection |
+| `docs/19-seo-performance-legal/` | SEO, Core Web Vitals, privacy policy, terms |
+| `docs/20-operasional-serah-terima/` | Maintenance bulanan, serah terima klien |
 | `templates/` | File siap isi (PRD, SDLC, DESIGN.md, dst) |
 | `prompts/` | Prompt siap tempel per fase |
 | `skills/` | Skill AI agent (format Hermes/Claude) |
 | `checklists/` | Checklist rilis, keamanan, performa |
-| `kelas/` | Silabus kelas per sesi |
+| `kelas/` | Silabus, kuis, checkpoint mentor, latihan per sesi |
+| `examples/` | **Project contoh terisi lengkap** (PRD→TASKS→prompt→hasil) |
+| `deployment-examples/` | **Config siap pakai** Vercel, cPanel, Docker, Nginx |
+| `GLOSSARY.md` | Kamus istilah pemula |
+| `PROGRESS.md` | Penanda posisi belajar (copy ke project sendiri) |
+| `BANTUAN.md` | Format minta bantuan + checklist sebelum bertanya |
+| `START-HERE.md` | **Halaman pertama: pilih jalur, mulai di sini** |
 
 ---
 

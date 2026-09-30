@@ -1,0 +1,16 @@
+name: "💡 Usulan Materi"
+description: Topik atau materi yang ingin ditambahkan
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: usulan
+    attributes:
+      label: Materi yang diusulkan
+      description: Jelaskan topik, kenapa penting, dan di bab mana sebaiknya.
+    validations:
+      required: true
+  - type: textarea
+    id: konteks
+    attributes:
+      label: Konteks (opsional)
+      description: Link referensi, pengalaman pribadi, dll.
