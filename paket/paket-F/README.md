@@ -1,12 +1,22 @@
-# Paket F — VPS Docker Manual
+<p align="center">
+  <img src="../../assets/paket/banner-F.jpg" alt="Paket F — Monorepo Skills" width="100%">
+</p>
 
-> 🟠 **LANJUTAN** · Estimasi **5 hari** · Biaya **MENENGAH**
+<h1 align="center">PAKET F — VPS Docker Manual</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A0%20LANJUTAN-orange" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-5%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MENENGAH-orange" alt="Biaya">
+</p>
+<p align="center"><em>Multi-container Docker Compose di VPS dengan Nginx, Certbot, dan CI/CD manual — kontrol penuh.</em></p>
 
-## Hasil Akhir
+---
+
+## 🎯 Hasil Akhir
 
 Frontend Next.js standalone, API Express atau Fastify, dan PostgreSQL berjalan sebagai container melalui Docker Compose. Nginx menjadi reverse proxy, Certbot mengurus TLS, dan GitHub Actions mengirim rilis lewat SSH.
 
-## Stack
+## 🏗️ Stack
 
 | Bagian | Teknologi |
 |---|---|
@@ -32,7 +42,7 @@ Nginx :443 ─┬─ domain.com     → web container :3000
 GitHub Actions ── SSH ──> VPS ── docker compose build/up
 ```
 
-## Bedanya dengan Paket E
+## 🎯 Bedanya dengan Paket E
 
 | Paket E — Coolify | Paket F — Manual |
 |---|---|
@@ -41,21 +51,21 @@ GitHub Actions ── SSH ──> VPS ── docker compose build/up
 | Abstraksi platform | Debug langsung Docker, Nginx, systemd, jaringan |
 | Lebih sedikit titik salah konfigurasi | Lebih bisa rusak karena semua manual |
 
-## Kapan Pakai
+## 🎯 Kapan Pakai
 
 - Paham Linux, SSH, Docker, jaringan, log, dan rollback.
 - Memerlukan web dan API terpisah.
 - Ingin kontrol image, network, volume, proxy, dan pipeline.
 - Siap menangani patch keamanan dan pemulihan server.
 
-## Jangan Pakai
+## ⚡ Jangan Pakai
 
 - Ini deploy VPS pertama.
 - Tidak bisa memulihkan akses SSH atau restore database.
 - Satu aplikasi sederhana cukup dengan platform managed atau Coolify.
 - Tidak tersedia waktu maintenance rutin.
 
-## Alur 5 Hari
+## 📚 Alur 5 Hari
 
 | Hari | Fokus | Gerbang selesai |
 |---|---|---|
@@ -71,7 +81,7 @@ Rencana → CLI Agent → Web + API + DB → Docker lokal
 → GitHub Actions → Monitoring + Backup
 ```
 
-## Urutan Panduan
+## 📚 Urutan Panduan
 
 1. [`01-pedoman.md`](01-pedoman.md)
 2. [`02-ai-agent.md`](02-ai-agent.md)
@@ -82,11 +92,11 @@ Rencana → CLI Agent → Web + API + DB → Docker lokal
 7. [`07-maintenance.md`](07-maintenance.md)
 8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
-## Slot Video
+## 🎬 Slot Video
 
 > **Video Paket F:** _belum direkam_. Tempel URL video di sini setelah tersedia.
 
-## Checklist Kelulusan
+## ✅ Checklist Kelulusan
 
 - [ ] Dokumen perencanaan memisahkan tanggung jawab web, API, dan DB.
 - [ ] CLI agent mengikuti AGENTS dan tidak menyentuh secret/produksi tanpa izin.
@@ -98,7 +108,7 @@ Rencana → CLI Agent → Web + API + DB → Docker lokal
 - [ ] GitHub Actions deploy dan prosedur rollback teruji.
 - [ ] Backup PostgreSQL tersimpan di lokasi lain dan restore diuji.
 
-## Rujukan
+## 🔗 Rujukan
 
 - [`../../docs/10-deploy-vps/01-setup-vps.md`](../../docs/10-deploy-vps/01-setup-vps.md)
 - [`../../docs/10-deploy-vps/03-docker-nginx-ssl.md`](../../docs/10-deploy-vps/03-docker-nginx-ssl.md)

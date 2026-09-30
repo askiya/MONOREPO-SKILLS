@@ -1,14 +1,24 @@
-# Paket J — Self-hosted AI Stack
+<p align="center">
+  <img src="../../assets/paket/banner-J.jpg" alt="Paket J — Monorepo Skills" width="100%">
+</p>
 
-> 🔴 **EXPERT** · Estimasi: **7 hari** · Biaya: **MENENGAH→MAHAL**
+<h1 align="center">PAKET J — Self-hosted AI Stack</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%94%B4%20EXPERT-red" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-7%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MENENGAH→MAHAL-red" alt="Biaya">
+</p>
+<p align="center"><em>Produk AI dengan model, RAG, dan data vektor yang berjalan di infrastruktur sendiri.</em></p>
+
+---
 
 Paket produk AI yang menjalankan frontend, API Python, penyimpanan vektor, dan model lokal dalam infrastruktur sendiri. GPU opsional; CPU cukup untuk lab dan model kecil, tetapi lebih lambat.
 
-## Stack
+## 🏗️ Stack
 
 Next.js + FastAPI (Python) + PostgreSQL + pgvector + Ollama/vLLM + Docker Compose + Coolify.
 
-## Diagram Stack
+## 🏗️ Diagram Stack
 
 ```text
 Pengguna
@@ -25,28 +35,28 @@ Frontend Next.js ──HTTP/SSE──► FastAPI
 Deploy: Coolify mengelola resource Docker Compose di VPS CPU/GPU
 ```
 
-## Kapan Pakai
+## 🎯 Kapan Pakai
 
 - Data/model perlu berada di infrastruktur sendiri.
 - Produk membutuhkan RAG atas dokumen privat.
 - Tim mampu mengevaluasi kualitas, keamanan prompt, dan operasi model.
 - Volume inferensi cukup stabil sehingga self-hosting masuk akal.
 
-## Kapan Jangan Pakai
+## 🎯 Kapan Jangan Pakai
 
 - MVP perlu online cepat dan API model terkelola sudah memadai.
 - Tidak ada dataset evaluasi, pemilik operasi, atau rencana kapasitas.
 - Membutuhkan model besar tetapi tidak punya anggaran GPU.
 - Menganggap RAG otomatis menghilangkan halusinasi.
 
-## Prasyarat
+## ⚡ Prasyarat
 
 - Python, TypeScript, Docker, PostgreSQL, HTTP streaming, dan Linux.
 - VPS minimal 8 GB RAM untuk lab CPU; sesuaikan dengan ukuran model/context.
 - GPU opsional dengan driver dan Container Toolkit kompatibel.
 - Dokumen uji yang sah digunakan, tanpa data rahasia untuk eksperimen publik.
 
-## Alur 7 Hari
+## 📚 Alur 7 Hari
 
 | Hari | Fokus | Bukti selesai |
 |---|---|---|
@@ -58,7 +68,7 @@ Deploy: Coolify mengelola resource Docker Compose di VPS CPU/GPU
 | 6 | Domain frontend/API dan TLS | dua hostname HTTPS valid |
 | 7 | update model, backup, GPU/cost | restore dan alarm lulus |
 
-## Urutan Panduan
+## 📚 Urutan Panduan
 
 1. [`01-pedoman.md`](01-pedoman.md) — PRD AI, model, dan RAG.
 2. [`02-ai-agent.md`](02-ai-agent.md) — Hermes Agent untuk stack advanced.
@@ -69,15 +79,15 @@ Deploy: Coolify mengelola resource Docker Compose di VPS CPU/GPU
 7. [`07-maintenance.md`](07-maintenance.md) — model, DB vektor, GPU, backup, biaya.
 8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > Slot video mentor: **belum tersedia**. Gunakan panduan teks dan simpan hasil evaluasi.
 
-## Batas Paket
+## 🎯 Batas Paket
 
 Pipeline dibuat sederhana: parsing teks, chunking, embedding, similarity search, prompt ber-sitasi. Tidak mencakup fine-tuning, agent otonom, multimodal, distributed inference, atau jaminan jawaban benar.
 
-## Checklist Selesai
+## ✅ Checklist Selesai
 
 - [ ] PRD mendefinisikan model, lisensi, bahasa, latency, biaya, dan evaluasi.
 - [ ] Pipeline ingest serta retrieval punya dataset uji.

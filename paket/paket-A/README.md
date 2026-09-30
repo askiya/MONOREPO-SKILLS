@@ -1,13 +1,18 @@
-# Paket A — Vercel Starter
+<p align="center">
+  <img src="../../assets/paket/banner-A.jpg" alt="Paket A — Monorepo Skills" width="100%">
+</p>
 
-> 🟢 **PEMULA** · Estimasi: 2 hari · Biaya: **GRATIS**
-
-Paket default kelas. Cocok untuk member yang baru pertama kali bikin web app
-dengan login dan database, ingin cepat online tanpa ribet server.
+<h1 align="center">PAKET A — Vercel Starter ⭐</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A2%20PEMULA-brightgreen" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-2%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-GRATIS-success" alt="Biaya">
+</p>
+<p align="center"><em>Next.js + Neon PostgreSQL + Vercel — cepat online tanpa ribet server.</em></p>
 
 ---
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -32,7 +37,7 @@ DNS: Cloudflare → CNAME → cname.vercel-dns.com
 
 ---
 
-## Kapan Pakai Paket Ini
+## 🎯 Kapan Pakai Paket Ini
 
 - Baru pertama kali bikin web app sampai deploy
 - Butuh login (auth) + database
@@ -40,7 +45,7 @@ DNS: Cloudflare → CNAME → cname.vercel-dns.com
 - Project pribadi, MVP, atau portofolio interaktif
 - Tim 1–2 orang
 
-## Kapan JANGAN Pakai
+## 🎯 Kapan JANGAN Pakai
 
 - Landing page statis tanpa login → pakai **Paket B**
 - Butuh cron job, background worker, atau WebSocket → pakai **Paket G (Railway)**
@@ -50,7 +55,7 @@ DNS: Cloudflare → CNAME → cname.vercel-dns.com
 
 ---
 
-## Prasyarat
+## ⚡ Prasyarat
 
 | Kebutuhan | Cara Cek |
 |---|---|
@@ -67,7 +72,7 @@ Kalau belum ada satupun, ikuti [`../../docs/00-mulai-dari-sini/02-prasyarat-alat
 
 ---
 
-## Alur Lengkap
+## 📚 Alur Lengkap
 
 ```text
 1. Pedoman ──► 2. AI Agent ──► 3. Build ──► 4. Preview ──► 5. Deploy ──► 6. Domain ──► 7. Maintenance
@@ -87,7 +92,7 @@ Kalau belum ada satupun, ikuti [`../../docs/00-mulai-dari-sini/02-prasyarat-alat
 
 ---
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > 🎬 Video belum tersedia. Akan ditambahkan.
 
@@ -95,7 +100,7 @@ Saat video sudah ada, link akan muncul di setiap file fase.
 
 ---
 
-## Checklist Selesai
+## ✅ Checklist Selesai
 
 - [ ] 6 dokumen perencanaan selesai (PRD, SDLC, DESIGN, ARCHITECTURE, TASKS, AGENTS)
 - [ ] Antigravity terinstal, bisa baca folder project
@@ -114,7 +119,7 @@ paket yang lebih tinggi.
 
 ---
 
-## Referensi
+## 🔗 Referensi
 
 | Topik | Lokasi |
 |---|---|

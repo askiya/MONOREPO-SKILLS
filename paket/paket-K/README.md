@@ -1,12 +1,22 @@
-# Paket K — Santriverse Hybrid
+<p align="center">
+  <img src="../../assets/paket/banner-K.jpg" alt="Paket K — Monorepo Skills" width="100%">
+</p>
 
-> 🟠 **LANJUTAN** · Estimasi: 5 hari · Biaya: **MENENGAH** · 🎯 Stack nyata Santriverse
+<h1 align="center">PAKET K — Santriverse Hybrid 🎯</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A0%20LANJUTAN-orange" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-5%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MENENGAH-orange" alt="Biaya">
+</p>
+<p align="center"><em>🎯 Stack nyata Santriverse: GitHub → Cloudflare (frontend) + Coolify/VPS (backend + PostgreSQL).</em></p>
+
+---
 
 Paket studi kasus berdasarkan arsitektur Santriverse: source code disimpan di
 GitHub, frontend dibangun dan di-host terpisah di Cloudflare, backend/API serta
 PostgreSQL berjalan di Coolify pada VPS, dan pengembangan dibantu Hermes Agent.
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
                     ┌──────────────────┐
@@ -32,7 +42,7 @@ Browser     │ Pages/Workers   │API│ Backend/API        │
                                   └────────────────────┘
 ```
 
-## Komponen
+## 🏗️ Komponen
 
 | Layer | Pilihan | Fungsi |
 |---|---|---|
@@ -47,7 +57,7 @@ Browser     │ Pages/Workers   │API│ Backend/API        │
 | CI | GitHub Actions | lint, test, build sebelum deploy |
 | Monitoring | Coolify logs + uptime monitor | deteksi downtime/error |
 
-## Kenapa Level Lanjutan?
+## 🎯 Kenapa Level Lanjutan?
 
 Bukan karena kode lebih rumit, tapi karena ada **dua target deployment**:
 
@@ -59,7 +69,7 @@ Bukan karena kode lebih rumit, tapi karena ada **dua target deployment**:
 
 Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket ini.
 
-## Kapan Pakai Paket Ini
+## 🎯 Kapan Pakai Paket Ini
 
 - Produk sudah punya frontend dan backend yang jelas terpisah.
 - Frontend butuh distribusi CDN global.
@@ -67,7 +77,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 - Tim ingin source tetap di GitHub dan deploy otomatis.
 - Butuh biaya lebih terkendali daripada semua layanan managed terpisah.
 
-## Kapan JANGAN Pakai
+## 🎯 Kapan JANGAN Pakai
 
 - Project pertama dan belum pernah deploy.
 - Aplikasi hanya landing page statis — gunakan Paket B.
@@ -75,7 +85,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 - Tidak ada orang yang bertanggung jawab update VPS dan backup DB.
 - Tidak siap mengelola CORS, environment, dan dua pipeline deploy.
 
-## Prasyarat
+## ⚡ Prasyarat
 
 - [ ] Pernah deploy project sampai online
 - [ ] Paham Git branch, commit, push, pull request
@@ -85,7 +95,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 - [ ] Punya domain di Cloudflare
 - [ ] Hermes Agent sudah terpasang
 
-## Alur Lengkap
+## 📚 Alur Lengkap
 
 1. [Pedoman dan arsitektur](01-pedoman.md)
 2. [Setup Hermes Agent](02-ai-agent.md)
@@ -96,7 +106,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 7. [Backup, monitoring, maintenance](07-maintenance.md)
 8. [Rekomendasi hosting dan provider](08-rekomendasi-hosting.md)
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > 🎬 Video belum tersedia. Mentor dapat merekam seri:
 > 1. membuat repo dan dokumen,
@@ -106,7 +116,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 > 5. menghubungkan domain, CORS, dan environment,
 > 6. backup/restore serta troubleshooting.
 
-## Checklist Selesai
+## ✅ Checklist Selesai
 
 - [ ] Dokumen perencanaan frontend/backend konsisten
 - [ ] Hermes Agent membaca aturan repo dan tidak menebak stack

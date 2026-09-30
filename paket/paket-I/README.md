@@ -1,14 +1,24 @@
-# Paket I — Multi-Service Docker
+<p align="center">
+  <img src="../../assets/paket/banner-I.jpg" alt="Paket I — Monorepo Skills" width="100%">
+</p>
 
-> 🔴 **EXPERT** · Estimasi: **7 hari** · Biaya: **MENENGAH**
+<h1 align="center">PAKET I — Multi-Service Docker</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%94%B4%20EXPERT-red" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-7%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MENENGAH-orange" alt="Biaya">
+</p>
+<p align="center"><em>Satu Docker Compose untuk frontend, API, worker, cache, database, TLS otomatis, dan pemantauan.</em></p>
+
+---
 
 Paket produksi untuk aplikasi yang perlu frontend, API, worker antrean, cache, database, reverse proxy, TLS otomatis, dan pemantauan dalam satu Docker Compose.
 
-## Stack
+## 🏗️ Stack
 
 Next.js + NestJS/Fastify + PostgreSQL + Redis + BullMQ + Docker Compose + Traefik (auto SSL) + Uptime Kuma.
 
-## Diagram Stack
+## 🏗️ Diagram Stack
 
 ```text
 Internet
@@ -27,28 +37,28 @@ web ──HTTP──► api ──SQL────► PostgreSQL
 
 Hanya Traefik membuka port publik. PostgreSQL dan Redis tetap di jaringan internal Docker.
 
-## Kapan Pakai
+## 🎯 Kapan Pakai
 
 - API dan worker harus diskalakan atau dirilis terpisah.
 - Pekerjaan berat perlu antrean, retry, dan observabilitas.
 - Tim mampu mengelola VPS, Docker, DNS, backup, dan insiden.
 - Biaya managed platform sudah lebih tinggi daripada satu VPS terukur.
 
-## Kapan Jangan Pakai
+## 🎯 Kapan Jangan Pakai
 
 - Landing page, MVP kecil, atau aplikasi tanpa proses latar belakang.
 - Belum pernah mengelola Docker, firewall, dan pemulihan backup.
 - Butuh high availability lintas node; gunakan orchestrator atau layanan terkelola.
 - Tidak ada orang yang bertanggung jawab atas patch dan alarm server.
 
-## Prasyarat
+## ⚡ Prasyarat
 
 - Linux, jaringan TCP/IP, DNS, Git, Node.js, dan Docker sudah dipahami.
 - VPS minimal 4 GB RAM untuk lab; ukur produksi dari beban nyata.
 - Domain dikelola di Cloudflare dan email operasional tersedia untuk ACME.
 - SSH key, akses `sudo`, dan rencana backup off-site tersedia.
 
-## Alur 7 Hari
+## 📚 Alur 7 Hari
 
 | Hari | Fokus | Bukti selesai |
 |---|---|---|
@@ -60,7 +70,7 @@ Hanya Traefik membuka port publik. PostgreSQL dan Redis tetap di jaringan intern
 | 6 | DNS, Traefik, TLS | tiga hostname HTTPS valid |
 | 7 | Monitor, backup, keamanan | alarm dan restore drill lulus |
 
-## Urutan Panduan
+## 📚 Urutan Panduan
 
 1. [`01-pedoman.md`](01-pedoman.md) — perencanaan multi-service.
 2. [`02-ai-agent.md`](02-ai-agent.md) — Hermes Agent dan pembagian konteks.
@@ -71,15 +81,15 @@ Hanya Traefik membuka port publik. PostgreSQL dan Redis tetap di jaringan intern
 7. [`07-maintenance.md`](07-maintenance.md) — log, monitor, backup, keamanan.
 8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > Slot video mentor: **belum tersedia**. Ikuti panduan teks dan simpan bukti tiap checklist.
 
-## Batas Paket
+## 🎯 Batas Paket
 
 Paket ini satu-node. Tidak mencakup Kubernetes, database cluster, failover otomatis lintas VPS, atau zero-downtime migration kompleks.
 
-## Checklist Selesai
+## ✅ Checklist Selesai
 
 - [ ] Diagram memuat web, API, worker, PostgreSQL, Redis, Traefik, dan Uptime Kuma.
 - [ ] `docker compose config` valid tanpa secret tertanam.

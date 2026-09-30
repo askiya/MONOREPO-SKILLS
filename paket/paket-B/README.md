@@ -1,14 +1,18 @@
-# Paket B — Cloudflare Static
+<p align="center">
+  <img src="../../assets/paket/banner-B.jpg" alt="Paket B — Monorepo Skills" width="100%">
+</p>
 
-> 🟢 **PEMULA** · Estimasi: 1 hari · Biaya: **GRATIS**
-
-Paket tercepat untuk membuat website statis dan menerbitkannya ke internet.
-Tidak ada backend, login, atau database. Pilih **Astro** untuk website konten
-(blog/portofolio) atau **Vite** untuk landing page interaktif.
+<h1 align="center">PAKET B — Cloudflare Static</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A2%20PEMULA-brightgreen" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-1%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-GRATIS-success" alt="Biaya">
+</p>
+<p align="center"><em>Astro/Vite static — paket tercepat untuk website statis online.</em></p>
 
 ---
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
 ┌──────────────────────────────┐
@@ -35,7 +39,7 @@ DNS: Cloudflare → Pages custom domain
 
 ---
 
-## Kapan Pakai Paket Ini
+## 🎯 Kapan Pakai Paket Ini
 
 - Portofolio pribadi
 - Landing page produk atau jasa
@@ -45,7 +49,7 @@ DNS: Cloudflare → Pages custom domain
 - Undangan atau halaman acara
 - Tidak ada data rahasia dan tidak perlu akun pengguna
 
-## Kapan JANGAN Pakai
+## 🎯 Kapan JANGAN Pakai
 
 - Butuh login atau role pengguna
 - Butuh database atau data berubah lewat dashboard admin
@@ -57,7 +61,7 @@ Kalau butuh login/database, gunakan **Paket A — Vercel Starter**.
 
 ---
 
-## Prasyarat
+## ⚡ Prasyarat
 
 | Kebutuhan | Cara cek |
 |---|---|
@@ -71,7 +75,7 @@ Kalau butuh login/database, gunakan **Paket A — Vercel Starter**.
 
 ---
 
-## Pilih Astro atau Vite
+## 🏗️ Pilih Astro atau Vite
 
 | Pilihan | Cocok untuk | Pilih kalau |
 |---|---|---|
@@ -82,7 +86,7 @@ Untuk project pertama, pilih **Astro**. Jangan pasang dua framework sekaligus.
 
 ---
 
-## Alur Lengkap
+## 📚 Alur Lengkap
 
 ```text
 1. Pedoman ──► 2. AI Agent ──► 3. Build ──► 4. Preview ──► 5. Deploy
@@ -106,13 +110,13 @@ Untuk project pertama, pilih **Astro**. Jangan pasang dua framework sekaligus.
 
 ---
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > 🎬 Video belum tersedia. Akan ditambahkan.
 
 ---
 
-## Checklist Selesai
+## ✅ Checklist Selesai
 
 - [ ] PRD ringan dan DESIGN.md selesai
 - [ ] Memilih satu stack: Astro atau Vite
@@ -128,7 +132,7 @@ Untuk project pertama, pilih **Astro**. Jangan pasang dua framework sekaligus.
 
 ---
 
-## Referensi
+## 🔗 Referensi
 
 | Topik | Lokasi |
 |---|---|

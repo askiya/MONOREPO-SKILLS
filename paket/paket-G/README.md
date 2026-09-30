@@ -1,15 +1,22 @@
-# PAKET G — Railway Fullstack
+<p align="center">
+  <img src="../../assets/paket/banner-G.jpg" alt="Paket G — Monorepo Skills" width="100%">
+</p>
 
-![Level](https://img.shields.io/badge/Level-%F0%9F%94%B5%20MENENGAH-blue)
-![Estimasi](https://img.shields.io/badge/Estimasi-3%20hari-informational)
-![Biaya](https://img.shields.io/badge/Biaya-GRATIS%20%E2%86%92%20MURAH-success)
+<h1 align="center">PAKET G — Railway Fullstack</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%94%B5%20MENENGAH-blue" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-3%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-GRATIS%20%E2%86%92%20MURAH-yellowgreen" alt="Biaya">
+</p>
+<p align="center"><em>Satu aplikasi Next.js fullstack + PostgreSQL, semuanya di Railway — persistent process untuk cron, worker, dan WebSocket.</em></p>
 
-> Satu aplikasi Next.js fullstack + PostgreSQL, **semuanya di Railway**.
+---
+
 > Cocok kalau aplikasimu butuh proses yang hidup terus: cron, worker, WebSocket.
 
 ---
 
-## Ringkasan Paket
+## 🎯 Ringkasan Paket
 
 | Item | Keterangan |
 |---|---|
@@ -23,7 +30,7 @@
 
 ---
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```
 ┌───────────────────────────────────────────────────────────┐
@@ -64,7 +71,7 @@
 
 ---
 
-## Bedanya dengan Paket A (Next.js + Vercel)
+## 🎯 Bedanya dengan Paket A (Next.js + Vercel)
 
 Ini bagian paling penting. Jangan pilih Paket G kalau Paket A sudah cukup.
 
@@ -86,7 +93,7 @@ serverless Vercel tanpa layanan tambahan.
 
 ---
 
-## Kapan Pakai Paket G
+## 🎯 Kapan Pakai Paket G
 
 ✅ Pakai kalau:
 - Butuh **cron job** di dalam aplikasi (kirim email harian, sinkron data tiap jam).
@@ -95,7 +102,7 @@ serverless Vercel tanpa layanan tambahan.
 - Mau **database dan aplikasi satu tempat** supaya billing & jaringan simpel.
 - Mau **koneksi database persisten** tanpa pusing connection pooling serverless.
 
-## Kapan JANGAN Pakai Paket G
+## ⚡ Kapan JANGAN Pakai Paket G
 
 ❌ Jangan pakai kalau:
 - Aplikasimu hanya CRUD + halaman biasa → **pakai Paket A**, lebih murah & cepat.
@@ -106,7 +113,7 @@ serverless Vercel tanpa layanan tambahan.
 
 ---
 
-## Alur Kerja (3 Hari)
+## 📚 Alur Kerja (3 Hari)
 
 ```
 HARI 1  ── Perencanaan & Agent
@@ -125,7 +132,7 @@ HARI 3  ── Deploy & Operasional
 
 ---
 
-## Isi Paket
+## 📚 Isi Paket
 
 | File | Isi |
 |---|---|
@@ -140,7 +147,7 @@ HARI 3  ── Deploy & Operasional
 
 ---
 
-## Video Panduan
+## 🎬 Video Panduan
 
 <!-- VIDEO SLOT: paket-G-overview -->
 > 🎬 **Video 1 — Kenalan Paket G & Bedanya dengan Vercel** _(coming soon)_
@@ -160,7 +167,7 @@ HARI 3  ── Deploy & Operasional
 
 ---
 
-## Checklist Kelulusan Paket G
+## ✅ Checklist Kelulusan Paket G
 
 Centang hanya kalau sudah benar-benar jalan, bukan "kayaknya jalan".
 
@@ -196,7 +203,7 @@ Centang hanya kalau sudah benar-benar jalan, bukan "kayaknya jalan".
 
 ---
 
-## Perkiraan Biaya
+## 💰 Perkiraan Biaya
 
 | Komponen | Biaya |
 |---|---|

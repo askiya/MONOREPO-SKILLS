@@ -1,7 +1,9 @@
-# 📦 Katalog Paket Arsitektur
+<p align="center">
+  <img src="../assets/paket/banner-katalog.jpg" alt="Katalog Paket Arsitektur — Monorepo Skills" width="100%">
+</p>
 
-Pilih **satu paket** sesuai level dan kebutuhan. Setiap paket berisi pedoman
-lengkap: perencanaan → AI agent → build → preview → deploy → domain → maintenance.
+<h1 align="center">📦 Katalog Paket Arsitektur</h1>
+<p align="center"><em>Pilih satu paket sesuai level dan kebutuhan. Setiap paket berisi pedoman lengkap dari perencanaan sampai maintenance.</em></p>
 
 Jangan campur paket. Selesaikan satu dulu.
 

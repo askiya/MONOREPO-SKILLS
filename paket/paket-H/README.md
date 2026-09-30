@@ -1,12 +1,18 @@
-# PAKET H — Monorepo Turborepo
+<p align="center">
+  <img src="../../assets/paket/banner-H.jpg" alt="Paket H — Monorepo Skills" width="100%">
+</p>
 
-![Level](https://img.shields.io/badge/Level-%F0%9F%9F%A0%20LANJUTAN-orange)
-![Estimasi](https://img.shields.io/badge/Estimasi-5%20hari-informational)
-![Biaya](https://img.shields.io/badge/Biaya-MURAH-yellow)
+<h1 align="center">PAKET H — Monorepo Turborepo</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A0%20LANJUTAN-orange" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-5%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MURAH-yellow" alt="Biaya">
+</p>
+<p align="center"><em>Satu repository, dua aplikasi, satu paket bersama — Next.js frontend + Express API + shared types/utilities.</em></p>
 
-> Satu repository, dua aplikasi, satu paket bersama: Next.js frontend + Express API + shared types/utilities.
+---
 
-## Ringkasan
+## 🎯 Ringkasan
 
 | Item | Keterangan |
 |---|---|
@@ -20,7 +26,7 @@
 | Domain | `app.domain.com` + `api.domain.com` melalui Cloudflare |
 | Prasyarat | Nyaman dengan TypeScript, REST API, environment variable, deploy |
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
                          ┌──────────────────────┐
@@ -52,7 +58,7 @@
 └────────────────────────────────────────────────────────────────┘
 ```
 
-## Kapan Pakai
+## 🎯 Kapan Pakai
 
 ✅ Pakai kalau:
 - Web dan API punya siklus deploy berbeda.
@@ -61,7 +67,7 @@
 - Tim frontend dan backend bekerja paralel tetapi perlu kontrak bersama.
 - Siap menjaga batas dependency dan pipeline lint/test/build.
 
-## Kapan Jangan Pakai
+## ⚡ Kapan Jangan Pakai
 
 ❌ Jangan pakai kalau:
 - Produk hanya CRUD sederhana dalam satu Next.js.
@@ -72,7 +78,7 @@
 
 Monorepo mengurangi duplikasi, tetapi menambah konfigurasi. Pilih karena kebutuhan, bukan tren.
 
-## Alur 5 Hari
+## 📚 Alur 5 Hari
 
 ```text
 HARI 1  01-pedoman.md  → PRD, SDLC, DESIGN, ARCHITECTURE monorepo, TASKS
@@ -85,7 +91,7 @@ HARI 5  05-deploy.md   → Vercel web + Railway/Render API
         07-maintenance.md → dependency, shared update, cache
 ```
 
-## Isi Paket
+## 📚 Isi Paket
 
 | File | Isi |
 |---|---|
@@ -98,7 +104,7 @@ HARI 5  05-deploy.md   → Vercel web + Railway/Render API
 | [07-maintenance.md](07-maintenance.md) | Dependency, shared update, Turborepo cache |
 | [08-rekomendasi-hosting.md](08-rekomendasi-hosting.md) | Rekomendasi hosting dan provider |
 
-## Video Panduan
+## 🎬 Video Panduan
 
 <!-- VIDEO SLOT: paket-H-overview -->
 > 🎬 **Video 1 — Kapan Monorepo Layak Dipakai** _(coming soon)_ · target 10 menit
@@ -112,7 +118,7 @@ HARI 5  05-deploy.md   → Vercel web + Railway/Render API
 <!-- VIDEO SLOT: paket-H-cache -->
 > 🎬 **Video 4 — Cache dan Maintenance** _(coming soon)_ · target 12 menit
 
-## Checklist Kelulusan
+## ✅ Checklist Kelulusan
 
 **Perencanaan**
 - [ ] ARCHITECTURE memuat tree `apps/` dan `packages/`
@@ -138,7 +144,7 @@ HARI 5  05-deploy.md   → Vercel web + Railway/Render API
 
 **Bukti ke mentor:** URL dua domain, output turbo build, screenshot struktur service, dan satu request API produksi sukses.
 
-## Perkiraan Biaya
+## 💰 Perkiraan Biaya
 
 | Komponen | Kisaran |
 |---|---|

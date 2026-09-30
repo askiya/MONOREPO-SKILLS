@@ -1,10 +1,18 @@
-# Paket C — cPanel Shared
+<p align="center">
+  <img src="../../assets/paket/banner-C.jpg" alt="Paket C — Monorepo Skills" width="100%">
+</p>
 
-> 🟢 **PEMULA** · Estimasi: **3 hari** · Biaya: **MURAH**
+<h1 align="center">PAKET C — cPanel Shared</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%9F%A2%20PEMULA-brightgreen" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-3%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-MURAH-yellow" alt="Biaya">
+</p>
+<p align="center"><em>Next.js export + PHP + MySQL + cPanel.</em></p>
 
 ---
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -34,7 +42,7 @@
 
 ---
 
-## Kapan Pakai Paket Ini
+## 🎯 Kapan Pakai Paket Ini
 
 - Klien korporat/UMKM yang **sudah punya hosting cPanel**
 - Budget kecil, tidak mau bayar VPS bulanan
@@ -42,7 +50,7 @@
 - Mau pakai MySQL karena hosting sudah menyediakan
 - Tim yang familiar dengan FTP / File Manager
 
-## Kapan JANGAN Pakai
+## 🎯 Kapan JANGAN Pakai
 
 | Kebutuhan | Kenapa tidak cocok | Paket alternatif |
 |---|---|---|
@@ -55,7 +63,7 @@
 
 ---
 
-## Prasyarat
+## ⚡ Prasyarat
 
 - [ ] Node.js LTS terinstal (`node -v`)
 - [ ] Git terinstal (`git --version`)
@@ -66,7 +74,7 @@
 
 ---
 
-## Alur Lengkap
+## 📚 Alur Lengkap
 
 ```text
 1. Pedoman          Tulis PRD, SDLC, DESIGN, ARCHITECTURE, TASKS, AGENTS
@@ -88,13 +96,13 @@ Ikuti urut. Jangan loncat ke deploy sebelum build jalan di localhost.
 
 ---
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > 🎬 _Slot video — belum direkam. Ikuti panduan teks di bawah._
 
 ---
 
-## Pedoman per Fase
+## 📚 Pedoman per Fase
 
 | Fase | File | Isi |
 |---|---|---|
@@ -109,7 +117,7 @@ Ikuti urut. Jangan loncat ke deploy sebelum build jalan di localhost.
 
 ---
 
-## Referensi yang Dirujuk
+## 🔗 Referensi yang Dirujuk
 
 | Topik | Lokasi di monorepo |
 |---|---|
@@ -123,7 +131,7 @@ Ikuti urut. Jangan loncat ke deploy sebelum build jalan di localhost.
 
 ---
 
-## Checklist Selesai Paket C
+## ✅ Checklist Selesai Paket C
 
 - [ ] Dokumen perencanaan (PRD, SDLC, DESIGN, ARCHITECTURE, TASKS, AGENTS) selesai
 - [ ] Antigravity terinstal dan bisa baca folder project

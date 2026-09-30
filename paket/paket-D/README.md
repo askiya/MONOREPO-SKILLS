@@ -1,10 +1,18 @@
-# Paket D — Vercel + Supabase
+<p align="center">
+  <img src="../../assets/paket/banner-D.jpg" alt="Paket D — Monorepo Skills" width="100%">
+</p>
 
-> 🔵 **MENENGAH** · Estimasi: **3 hari** · Biaya: **GRATIS → MURAH**
+<h1 align="center">PAKET D — Vercel + Supabase</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Level-%F0%9F%94%B5%20MENENGAH-blue" alt="Level">
+  <img src="https://img.shields.io/badge/Estimasi-3%20hari-blue" alt="Estimasi">
+  <img src="https://img.shields.io/badge/Biaya-GRATIS→MURAH-yellowgreen" alt="Biaya">
+</p>
+<p align="center"><em>Next.js + Supabase — auth, storage, dan RLS siap pakai.</em></p>
 
 ---
 
-## Stack Diagram
+## 🏗️ Stack Diagram
 
 ```text
 ┌───────────────────────────────────────────────────┐
@@ -33,7 +41,7 @@
 
 ---
 
-## Bedanya dengan Paket A (Vercel Starter)
+## 🏗️ Bedanya dengan Paket A (Vercel Starter)
 
 | Aspek | Paket A (Vercel Starter) | Paket D (Vercel + Supabase) |
 |---|---|---|
@@ -52,7 +60,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Kapan Pakai Paket Ini
+## 🎯 Kapan Pakai Paket Ini
 
 - Butuh **login/register** tapi tidak mau setup auth dari nol
 - Butuh **upload file** (avatar, dokumen, gambar produk)
@@ -61,7 +69,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 - Sudah pernah deploy minimal 1× (paham Git + Vercel dasar)
 - Mau MVP cepat online dengan fitur lengkap
 
-## Kapan JANGAN Pakai
+## 🎯 Kapan JANGAN Pakai
 
 | Kebutuhan | Kenapa tidak cocok | Paket alternatif |
 |---|---|---|
@@ -74,7 +82,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Prasyarat
+## ⚡ Prasyarat
 
 - [ ] Node.js LTS terinstal (`node -v`)
 - [ ] Git terinstal (`git --version`)
@@ -86,7 +94,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Alur Lengkap
+## 📚 Alur Lengkap
 
 ```text
 1. Pedoman          Tulis PRD, SDLC, DESIGN, ARCHITECTURE, TASKS, AGENTS
@@ -106,13 +114,13 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Video Tutorial
+## 🎬 Video Tutorial
 
 > 🎬 _Slot video — belum direkam. Ikuti panduan teks di bawah._
 
 ---
 
-## Pedoman per Fase
+## 📚 Pedoman per Fase
 
 | Fase | File | Isi |
 |---|---|---|
@@ -127,7 +135,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Referensi yang Dirujuk
+## 🔗 Referensi yang Dirujuk
 
 | Topik | Lokasi di monorepo |
 |---|---|
@@ -146,7 +154,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 
 ---
 
-## Checklist Selesai Paket D
+## ✅ Checklist Selesai Paket D
 
 - [ ] Dokumen perencanaan (PRD, SDLC, DESIGN, ARCHITECTURE, TASKS, AGENTS) selesai
 - [ ] Cursor terinstal dan bisa baca folder project
