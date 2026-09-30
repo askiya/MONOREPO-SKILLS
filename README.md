@@ -1,4 +1,22 @@
-# PEDOMAN MONOREPO — Kelas Vibe Coding Santriverse
+<p align="center">
+  <img src="assets/banner.png" alt="askiya MONOREPO-SKILLS — Learn, Build, Grow Together" width="100%" />
+</p>
+
+<h1 align="center">MONOREPO-SKILLS</h1>
+
+<p align="center">
+  <strong>Pedoman Vibe Coding Kelas Santriverse</strong><br />
+  Dari ide, prompt, dan kode sampai deploy yang menghasilkan dampak nyata.
+</p>
+
+<p align="center">
+  <a href="docs/00-mulai-dari-sini/01-apa-itu-vibe-coding.md">Mulai Belajar</a> ·
+  <a href="templates/">Pakai Template</a> ·
+  <a href="prompts/README.md">Ambil Prompt</a> ·
+  <a href="kelas/SILABUS.md">Lihat Silabus</a>
+</p>
+
+---
 
 Kumpulan pedoman, template, prompt, dan skill untuk membangun produk digital
 **dari nol sampai online** dengan cara **vibe coding** (nyuruh AI agent yang ngoding,
@@ -38,12 +56,12 @@ pembayaran.
 | `docs/06-database/` | PostgreSQL, Prisma, migrasi, seed, backup |
 | `docs/07-preview-localhost/` | Menjalankan & debug lokal |
 | `docs/08-testing/` | Manual QA, unit test, e2e, gate sebelum deploy |
-| `docs/09-deploy-gratis/` | Vercel, Netlify, Cloudflare Pages, Render, Railway, Fly |
+| `docs/09-deploy-gratis/` | Vercel, Netlify, Cloudflare, Render + perbandingan semua platform |
 | `docs/10-deploy-vps/` | VPS, Docker, Coolify, Nginx, SSL, backup |
-| `docs/11-hosting-cpanel/` | Shared hosting cPanel: static, PHP, Node |
+| `docs/11-hosting-cpanel/` | **Beli hosting → DNS → SSL → upload → Node.js → DB & credential** |
 | `docs/12-domain-dns-cloudflare/` | Domain, DNS, SSL, subdomain staging |
 | `docs/13-payment/` | Xendit, Lynk.id, webhook, aktivasi otomatis |
-| `docs/14-keamanan-secret/` | .env, rotasi kunci, jangan bocor ke GitHub |
+| `docs/14-keamanan-secret/` | Secret, hardening app, hardening cPanel, monitoring & insiden |
 | `docs/15-troubleshooting/` | Error yang paling sering muncul + obatnya |
 | `templates/` | File siap isi (PRD, SDLC, DESIGN.md, dst) |
 | `prompts/` | Prompt siap tempel per fase |
