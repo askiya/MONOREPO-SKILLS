@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="START-HERE.md"><strong>👉 MULAI DARI SINI</strong></a> ·
+  <a href="paket/"><strong>📦 Pilih Paket</strong></a> ·
   <a href="kelas/latihan/README.md">Latihan Praktik</a> ·
   <a href="examples/toko-produk-digital/">Contoh Project</a> ·
   <a href="templates/">Template</a> ·
@@ -89,6 +90,7 @@ pembayaran.
 | `PROGRESS.md` | Penanda posisi belajar (copy ke project sendiri) |
 | `BANTUAN.md` | Format minta bantuan + checklist sebelum bertanya |
 | `START-HERE.md` | **Halaman pertama: pilih jalur, mulai di sini** |
+| `paket/` | **📦 11 paket arsitektur berlevel** (A–K) — pilih stack+deploy sesuai level |
 
 ---
 

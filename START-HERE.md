@@ -34,6 +34,10 @@ Detail pemasangan: [`docs/00-mulai-dari-sini/02-prasyarat-alat.md`](docs/00-mula
 
 ## Langkah 3 — Pilih Jalur Belajar
 
+> Mau memilih berdasarkan teknologi dan infrastruktur? Buka **[📦 Katalog 11
+> Paket Arsitektur](paket/README.md)**. Paket A (Vercel Starter) menjadi default
+> untuk pemula; Paket K adalah studi kasus stack Santriverse asli.
+
 ### 🟢 Jalur A — Pemula
 
 **Target:** Landing page online yang bisa dibagikan ke orang.
@@ -128,6 +132,7 @@ cara lapor error → localhost → deploy. Ini yang paling cepat bikin paham.
 | Cek posisi belajar | [`PROGRESS.md`](PROGRESS.md) |
 | Butuh prompt | [`prompts/README.md`](prompts/README.md) |
 | File konfigurasi deploy | [`deployment-examples/`](deployment-examples/) |
+| Pilih stack + deployment | [`paket/README.md`](paket/README.md) |
 | Uji paham | [`kelas/KUIS.md`](kelas/KUIS.md) |
 | Setoran ke mentor | [`kelas/CHECKPOINT-MENTOR.md`](kelas/CHECKPOINT-MENTOR.md) |
 
