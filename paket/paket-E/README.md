@@ -73,6 +73,7 @@ Rencana → Antigravity → Build → Preview & Test
 5. [`05-deploy.md`](05-deploy.md) — VPS, Coolify, resource, auto-deploy.
 6. [`06-domain-ssl.md`](06-domain-ssl.md) — Cloudflare dan TLS.
 7. [`07-maintenance.md`](07-maintenance.md) — monitoring, backup, update.
+8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
 ## Slot Video
 

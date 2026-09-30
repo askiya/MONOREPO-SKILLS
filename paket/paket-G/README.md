@@ -136,6 +136,7 @@ HARI 3  ── Deploy & Operasional
 | [05-deploy.md](05-deploy.md) | Deploy ke Railway |
 | [06-domain-ssl.md](06-domain-ssl.md) | Custom domain + SSL via Cloudflare |
 | [07-maintenance.md](07-maintenance.md) | Logs, metrics, backup, biaya |
+| [08-rekomendasi-hosting.md](08-rekomendasi-hosting.md) | Rekomendasi hosting dan provider |
 
 ---
 

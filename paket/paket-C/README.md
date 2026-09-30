@@ -105,6 +105,7 @@ Ikuti urut. Jangan loncat ke deploy sebelum build jalan di localhost.
 | 5 | [05-deploy.md](05-deploy.md) | Upload ke cPanel |
 | 6 | [06-domain-ssl.md](06-domain-ssl.md) | DNS + AutoSSL + HTTPS |
 | 7 | [07-maintenance.md](07-maintenance.md) | Backup + monitoring |
+| 8 | [08-rekomendasi-hosting.md](08-rekomendasi-hosting.md) | Rekomendasi hosting |
 
 ---
 

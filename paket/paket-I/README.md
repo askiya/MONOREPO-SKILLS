@@ -69,6 +69,7 @@ Hanya Traefik membuka port publik. PostgreSQL dan Redis tetap di jaringan intern
 5. [`05-deploy.md`](05-deploy.md) — VPS dan Compose produksi.
 6. [`06-domain-ssl.md`](06-domain-ssl.md) — Cloudflare, Traefik, TLS.
 7. [`07-maintenance.md`](07-maintenance.md) — log, monitor, backup, keamanan.
+8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
 ## Video Tutorial
 

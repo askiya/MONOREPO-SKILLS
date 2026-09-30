@@ -67,6 +67,7 @@ Deploy: Coolify mengelola resource Docker Compose di VPS CPU/GPU
 5. [`05-deploy.md`](05-deploy.md) — VPS, Coolify, resource, model pull.
 6. [`06-domain-ssl.md`](06-domain-ssl.md) — domain frontend dan API.
 7. [`07-maintenance.md`](07-maintenance.md) — model, DB vektor, GPU, backup, biaya.
+8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
 ## Video Tutorial
 

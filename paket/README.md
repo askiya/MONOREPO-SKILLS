@@ -115,8 +115,11 @@ paket-X/
 ├── 04-preview.md      localhost, debug, testing
 ├── 05-deploy.md       deploy sesuai infrastruktur paket
 ├── 06-domain-ssl.md   domain, DNS, HTTPS
-└── 07-maintenance.md  backup, monitoring, update
+├── 07-maintenance.md  backup, monitoring, update
+└── 08-rekomendasi-hosting.md  opsi gratis sampai berbayar
 ```
+
+> Paket B memakai `06-rekomendasi-hosting.md` karena tidak butuh bab domain dan maintenance terpisah.
 
 ---
 

@@ -102,6 +102,7 @@ Untuk project pertama, pilih **Astro**. Jangan pasang dua framework sekaligus.
 | 3. Build | [`03-build.md`](03-build.md) | Website responsive tanpa backend |
 | 4. Preview | [`04-preview.md`](04-preview.md) | Build dan Lighthouse lolos |
 | 5. Deploy | [`05-deploy.md`](05-deploy.md) | Live di Cloudflare Pages |
+| 6. Rekomendasi Hosting | [`06-rekomendasi-hosting.md`](06-rekomendasi-hosting.md) | Opsi static hosting dan domain |
 
 ---
 

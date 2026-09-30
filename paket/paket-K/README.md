@@ -94,6 +94,7 @@ Selesaikan minimal satu paket 🟢 dan satu paket 🔵 sebelum mengambil paket i
 5. [Deploy GitHub → Cloudflare + Coolify](05-deploy.md)
 6. [Domain, DNS, SSL, CORS](06-domain-ssl.md)
 7. [Backup, monitoring, maintenance](07-maintenance.md)
+8. [Rekomendasi hosting dan provider](08-rekomendasi-hosting.md)
 
 ## Video Tutorial
 

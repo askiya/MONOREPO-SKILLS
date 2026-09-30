@@ -80,6 +80,7 @@ Rencana → CLI Agent → Web + API + DB → Docker lokal
 5. [`05-deploy.md`](05-deploy.md)
 6. [`06-domain-ssl.md`](06-domain-ssl.md)
 7. [`07-maintenance.md`](07-maintenance.md)
+8. [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) — rekomendasi hosting dan provider.
 
 ## Slot Video
 

@@ -96,6 +96,7 @@ HARI 5  05-deploy.md   → Vercel web + Railway/Render API
 | [05-deploy.md](05-deploy.md) | Vercel web + Railway/Render API + env terpisah |
 | [06-domain-ssl.md](06-domain-ssl.md) | `app.domain.com` + `api.domain.com` |
 | [07-maintenance.md](07-maintenance.md) | Dependency, shared update, Turborepo cache |
+| [08-rekomendasi-hosting.md](08-rekomendasi-hosting.md) | Rekomendasi hosting dan provider |
 
 ## Video Panduan
 

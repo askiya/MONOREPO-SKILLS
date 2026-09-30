@@ -83,6 +83,7 @@ Kalau belum ada satupun, ikuti [`../../docs/00-mulai-dari-sini/02-prasyarat-alat
 | 5. Deploy — push ke Vercel | [`05-deploy.md`](05-deploy.md) | 30–60 menit |
 | 6. Domain & SSL — Cloudflare DNS | [`06-domain-ssl.md`](06-domain-ssl.md) | 30 menit |
 | 7. Maintenance — monitoring & backup | [`07-maintenance.md`](07-maintenance.md) | 30 menit |
+| 8. Rekomendasi Hosting — opsi provider | [`08-rekomendasi-hosting.md`](08-rekomendasi-hosting.md) | referensi |
 
 ---
 

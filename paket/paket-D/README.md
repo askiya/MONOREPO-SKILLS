@@ -123,6 +123,7 @@ yang tidak perlu kamu bangun sendiri. Trade-off: lebih terikat ke Supabase.
 | 5 | [05-deploy.md](05-deploy.md) | Vercel + env vars |
 | 6 | [06-domain-ssl.md](06-domain-ssl.md) | Cloudflare DNS + Vercel domain |
 | 7 | [07-maintenance.md](07-maintenance.md) | Monitoring + backup |
+| 8 | [08-rekomendasi-hosting.md](08-rekomendasi-hosting.md) | Rekomendasi hosting |
 
 ---
 
